@@ -46,7 +46,9 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    ['nuxt-cname-module', { baseUrl: 'mosako.ir' }],
+
 
   ],
 
